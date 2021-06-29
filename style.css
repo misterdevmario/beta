@@ -53,7 +53,7 @@ body {
 .carousel {
   height: 43vh;
   width: 100%;
-  background-color: #663399;
+  background-color: black;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -154,11 +154,10 @@ body {
   flex-shrink: 3;
   background-color: #633399;
   border: solid 2px #9e65e0;
-  border-radius: 2px;
-  box-shadow: 2px 1px 1px rgba(231, 108, 231, 0.8);
+  border-radius: 4px;
+  box-shadow: 2px 1px 1px rgba(228, 219, 228, 0.8);
   margin: 8px;
-
-  font-weight: 100;
+  font-family: "Varela", sans-serif;
 }
 
 .restaurants_inner {
@@ -169,11 +168,14 @@ body {
   justify-content: space-around;
   align-items: center;
   background-color: black;
-  border-radius: 2px;
+  border-radius: 4px;
   font-size: 18px;
+  /* color: #633399; */
 }
 .restaurants_inner img {
-  height: 8vh;
+  height: 7vh;
+  background-color: white;
+  border-radius: 15px;
 }
 .logo-info {
   display: flex;
@@ -186,6 +188,7 @@ body {
 }
 .logo-info img {
   height: 2vh;
+  background-color: black;
 }
 .logo_info-container {
   display: flex;
@@ -197,6 +200,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  font-family: "Varela", sans-serif;
 }
 .restaurant_container-bf {
   width: 98%;
@@ -206,66 +210,65 @@ body {
   align-items: center;
   justify-content: center;
   flex-shrink: 3;
-  background-color: #21634c;
+  background-color: #633399;
   border: solid 2px #9e65e0;
-  border-radius: 2px;
+  border-radius: 4px;
   box-shadow: 2px 1px 1px rgba(231, 108, 231, 0.8);
   margin: 8px;
   font-weight: 100;
 }
 
 /* barsqr */
-.footer_qr{
+.footer_qr {
   display: flex;
   flex-direction: column;
 
-  justify-content: space-around;
+
 }
 
 .ourbars_info-container {
   display: flex;
-  justify-content: space-between;
-  font-size: 30px;
-}
-
-.ourbars_name {
-  width: 50%;
-}
-
-.ourbars_time {
   display: flex;
+  align-items: center;
   flex-direction: column;
-  justify-content: first baseline;
-  width: 50%;
+  justify-content: center;
+  height:21vh;
 }
 
-.bar1 {
+.bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   background-color: gray;
+}
+
+.qr_container{
+  border: solid 2px #9e65e0;
+  border-radius: 4px;
+  box-shadow: 2px 1px 1px rgba(231, 108, 231, 0.8);
 }
 
 .footer_qr {
   background-color: black;
+  
 }
-
-
 
 .qr {
   background-color: #633399;
   width: 100%;
   height: 40px;
   font-size: 30px;
-  
 }
 
 .vector_qr {
   background-color: white;
-  border: solid 1px black;
+
 }
 
 .vector_qr img {
   margin: 10px;
   height: 10vh;
-  border: solid 1px black;
+  
 }
 
 .scan_me {
@@ -301,13 +304,24 @@ body {
   height: 12vh;
 }
 .header_logo1 {
-  background-color: rgb(111, 96, 96);
+  background-color: black;
+  height: 16vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header_logo1 img {
   height: 12vh;
 }
 
 .header_weather1 {
   background-color: rgb(196, 119, 119);
   height: 12vh;
+}
+
+.carousel1 {
+  background-color: blue;
+  height: 80vh;
 }
 
 .restaurants1 {
