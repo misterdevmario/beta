@@ -45,11 +45,28 @@ body {
   height: 10vh;
   margin: 1vh;
 }
-
+/* WEATHER */
 .header_weather {
   height: 12vh;
+  background: linear-gradient(rgb(160, 40, 204), rgb(54, 22, 160));
+  font-size: 40px;
 }
 
+.weather-icon img{
+  height: 8vh;
+}
+
+.header_weather-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+/* CAROUSEL */
 .carousel {
   height: 43vh;
   width: 100%;
@@ -57,13 +74,14 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  color: white;
 }
 
 .imgcontainer {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  color: black;
+  color: rgb(103, 102, 102);
   width: 100%;
 }
 
@@ -113,13 +131,30 @@ body {
   padding: 0%;
 }
 
+/* FOOTER */
+
 .footer {
   height: 45vh;
   display: flex;
   background-color: black;
 }
+.footer_tittle-container {
+  height: 40px;
+  background-color: #663399;
+}
+
+.footer_tittle-container > div {
+  border: solid 1px black;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 23px;
+}
 .footer_tittle-container > div {
   font-size: 30px;
+  border-radius: 4px;
+  
 }
 
 .carousel_staff-container {
@@ -144,6 +179,10 @@ body {
   align-items: center;
   justify-content: center;
 }
+.restaurant_name{
+  font-family: "Teko", sans-serif;
+  font-size: 22px;
+}
 .restaurant_container {
   width: 46%;
   font-size: 20px;
@@ -155,7 +194,7 @@ body {
   background-color: #633399;
   border: solid 2px #9e65e0;
   border-radius: 4px;
-  box-shadow: 2px 1px 1px rgba(228, 219, 228, 0.8);
+  box-shadow: 2px 1px 1px rgba(231, 108, 231, 0.8);;
   margin: 8px;
   font-family: "Varela", sans-serif;
 }
