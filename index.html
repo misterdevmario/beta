@@ -16,17 +16,26 @@
 <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap" rel="stylesheet">
 
-    <title>Document</title>
+    <title>HG</title>
   </head>
-  <body>
-    <!--d-md-block-->
-    <main class="main m-0 p-0 d-none d-md-block">
-      <section class="header row m-0 p-0">
-        <div class="header_clock text-center col-md-4">clock</div>
-        <div class="header_logo p-0 m-0 col-md-4">
+  <body >
+    
+    <main class="main m-0 p-0 ">
+
+      
+      <div class="header row m-0 p-0">
+        
+        <div class="header_clock text-center d-none d-md-block col-md-4">
+  uuu
+        </div>
+
+        
+        <div class="header_logo p-0 m-0 col-md-4 col-12  order-md-0">
           <img src="/images/brecl_white cacol morado.png" alt="" />
         </div>
-        <div class="header_weather text-center col-md-4">
+
+        
+        <div class="header_weather d-none d-md-block  m-0 p-0 col-12 col-md-4  ">
           <div class="header_weather-container">
             <div class="location">
               <p>-</p>
@@ -48,9 +57,9 @@
           
           </div>
         </div>
-      </section>
-
-      <section class="carousel m-0 p-0 row col-md-12">
+      </div>
+<!-- carousel_lg -->
+      <div class="carousel m-0 p-0 row d-none d-md-block col-md-12">
         <div
           id="carouselExampleInterval"
           class="carousel slide"
@@ -189,28 +198,65 @@
             </div>
           </div>
         </div>
-      </section>
+      </div>
+<!-- carousel_small -->
+<div class="carousel_small m-0 p-0 d-md-none">
 
-      <section class="footer flex-column  m-0 p-0 col-md-12">
-        <div class="footer_tittle-container row m-0 p-0">
-          <div class="footer_staff-tittle col-md-2">E-TEAM</div>
-          <div class="footer_dinning-tittle col-md-4">DINNING RESTAURANTS</div>
-          <div class="footer_breakfast-tittle col-md-2">BREAKFAST & LUNCH</div>
-          <div class="footer_barsQr-tittle col-md-2">OUR BARS</div>
-          <div class="footer_flyer-tittle col-md-2">FLYER</div>
+  <div id="carouselExampleInterval" class="carousel2 slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="1000">
+        <div class="carousel_small-container">
+        <div class="carousel_small-image">
+          <img src="/images/RECURSO DE IMAGENES/061412e4a03c02f9902576ec55ebbe77 (1).jpg" class="d-block w-100" alt="...">
+          <div class="top-img1">22:00</div>
+          <div class="bottom-img1">Activity</div>
         </div>
+        <div class="carousel_small-image">
+          <img src="/images/RECURSO DE IMAGENES/a9a6653e48976138166de32772b1bf40.jpg" class="d-block w-100" alt="...">
+          <div class="top-img1">22:00</div>
+          <div class="bottom-img1">Activity</div>
+        </div>
+      </div>
+      </div>
+      <div class="carousel-item " data-bs-interval="1000">
+        <div class="carousel_small-container">
+        <div class="carousel_small-image">
+          <img src="/images/RECURSO DE IMAGENES/20aee3a5f4643755a79ee5f6a73050ac (4).jpg" class="d-block w-100" alt="...">
+          <div class="top-img1">22:00</div>
+          <div class="bottom-img1">Activity</div>
+        </div> 
+        <div class="carousel_small-image">
+          <img src="/images/RECURSO DE IMAGENES/28dd2c7955ce926456240b2ff0100bde (3).jpg" class="d-block w-100" alt="...">
+          <div class="top-img1">22:00</div>
+          <div class="bottom-img1">Activity</div>
+        </div>
+      </div>
+    </div>
+      <div class="carousel-item">
+        <div class="carousel_small-container">
+        <div class="carousel_small-image">
+          <img src="/images/RECURSO DE IMAGENES/63538fe6ef330c13a05a3ed7e599d5f7.jpg" class="d-block w-100" alt="...">
+          <div class="top-img1">22:00</div>
+          <div class="bottom-img1">Activity</div>
+        </div> 
+        <div class="carousel_small-image">
+          <img src="/images/RECURSO DE IMAGENES/2bf283c05b601f21364d052ca0ec798d.jpg" class="d-block w-100" alt="...">
+          <div class="top-img1">22:00</div>
+          <div class="bottom-img1">Activity</div>
+        </div>
+      </div>
+      </div>
+    </div>
+</div>
+</div>
+     
+<!-- footer -->
+        <div class="footer_inner-container  row m-0 p-0">
 
-        <div class="footer_inner-container row m-0 p-0">
-          <div class="footer_staff-inner col-md-2">
-            <div class="carousel_staff-container">
-              <div>STAFF</div>
-              <div class="carousel_staff-slides col-12">
-                <img name="staff_slide" />
-              </div>
-            </div>
-          </div>
-
-          <div class="footer_dinnig-inner col-md-4">
+ <!-- dinning_lg        -->
+          <div class="footer_dinnig-container d-none d-md-block m-0 p-0  col-md-4">
+            <div class="footer_dinning-tittle col-12 ">DINNING RESTAURANTS</div>
+          <div class="footer_dinnig-inner col-md-12">
             <div class="restaurant_container">
               <div class="restaurant_name">NAME</div>
 
@@ -427,8 +473,247 @@
               </div>
             </div>
           </div>
-          <div class="footer_breakfast-inner col-md-2">
+        </div>
+  <!-- dinnig_small -->
+        <div class="dinnig_small m-0 p-0 d-md-none">
+          
+            <div class="footer_dinning-tittle2 m-0 p-0 col-12 ">DINNING RESTAURANTS</div>
+          <div class="footer_dinnig-inner2 ">
+            <div class="restaurant_container2">
+              <div class="restaurant_name2">NAME</div>
+
+              <div class="restaurants_inner2 col-12">
+                <img src="/images/LOGOS RESTAURANTES/LOGOS PNG/Fish-Nets_Logo pang.png" alt="" />
+                <div class="logo_info-container2 ">
+                  <div class="logo-info2">
+                    <img
+                      src="/images/Icons/Buffet.svg"
+                      alt=""
+                    />
+                    <div class="type">TYPE</div>
+                  </div>
+
+                  <div class="logo-info2">
+                    <img src="/images/Icons/Menu.svg" alt="" />
+                    <div class="type">DINNER A LACARTE</div>
+                  </div>
+                  <div class="logo-info2">
+                    <img
+                      src="/images/Icons/Clock.svg"
+                      alt=""
+                    />
+                    <div class="type">6:00 PM - 11:00 PM</div>
+                  </div>
+                  <div class="logo-info2">
+                    <img
+                      src="/images/Icons/Members.svg"
+                      alt=""
+                    />
+                    <div class="type">MEMBERS</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer_dinnig-inner2 ">
+            <div class="restaurant_container2">
+              <div class="restaurant_name2">NAME</div>
+
+              <div class="restaurants_inner2 col-12">
+                <img src="/images/LOGOS RESTAURANTES/LOGOS PNG/Fish-Nets_Logo pang.png" alt="" />
+                <div class="logo_info-container2 ">
+                  <div class="logo-info2">
+                    <img
+                      src="/images/Icons/Buffet.svg"
+                      alt=""
+                    />
+                    <div class="type">TYPE</div>
+                  </div>
+
+                  <div class="logo-info2">
+                    <img src="/images/Icons/Menu.svg" alt="" />
+                    <div class="type">DINNER A LACARTE</div>
+                  </div>
+                  <div class="logo-info2">
+                    <img
+                      src="/images/Icons/Clock.svg"
+                      alt=""
+                    />
+                    <div class="type">6:00 PM - 11:00 PM</div>
+                  </div>
+                  <div class="logo-info2">
+                    <img
+                      src="/images/Icons/Members.svg"
+                      alt=""
+                    />
+                    <div class="type">MEMBERS</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer_dinnig-inner2 ">
+            <div class="restaurant_container2">
+              <div class="restaurant_name2">NAME</div>
+
+              <div class="restaurants_inner2 col-12">
+                <img src="/images/LOGOS RESTAURANTES/LOGOS PNG/Fish-Nets_Logo pang.png" alt="" />
+                <div class="logo_info-container2 ">
+                  <div class="logo-info2">
+                    <img
+                      src="/images/Icons/Buffet.svg"
+                      alt=""
+                    />
+                    <div class="type">TYPE</div>
+                  </div>
+
+                  <div class="logo-info2">
+                    <img src="/images/Icons/Menu.svg" alt="" />
+                    <div class="type">DINNER A LACARTE</div>
+                  </div>
+                  <div class="logo-info2">
+                    <img
+                      src="/images/Icons/Clock.svg"
+                      alt=""
+                    />
+                    <div class="type">6:00 PM - 11:00 PM</div>
+                  </div>
+                  <div class="logo-info2">
+                    <img
+                      src="/images/Icons/Members.svg"
+                      alt=""
+                    />
+                    <div class="type">MEMBERS</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer_dinnig-inner2 ">
+            <div class="restaurant_container2">
+              <div class="restaurant_name2">NAME</div>
+
+              <div class="restaurants_inner2 col-12">
+                <img src="/images/LOGOS RESTAURANTES/LOGOS PNG/Fish-Nets_Logo pang.png" alt="" />
+                <div class="logo_info-container2 ">
+                  <div class="logo-info2">
+                    <img
+                      src="/images/Icons/Buffet.svg"
+                      alt=""
+                    />
+                    <div class="type">TYPE</div>
+                  </div>
+
+                  <div class="logo-info2">
+                    <img src="/images/Icons/Menu.svg" alt="" />
+                    <div class="type">DINNER A LACARTE</div>
+                  </div>
+                  <div class="logo-info2">
+                    <img
+                      src="/images/Icons/Clock.svg"
+                      alt=""
+                    />
+                    <div class="type">6:00 PM - 11:00 PM</div>
+                  </div>
+                  <div class="logo-info2">
+                    <img
+                      src="/images/Icons/Members.svg"
+                      alt=""
+                    />
+                    <div class="type">MEMBERS</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer_dinnig-inner2 ">
+            <div class="restaurant_container2">
+              <div class="restaurant_name2">NAME</div>
+
+              <div class="restaurants_inner2 col-12">
+                <img src="/images/LOGOS RESTAURANTES/LOGOS PNG/Fish-Nets_Logo pang.png" alt="" />
+                <div class="logo_info-container2 ">
+                  <div class="logo-info2">
+                    <img
+                      src="/images/Icons/Buffet.svg"
+                      alt=""
+                    />
+                    <div class="type">TYPE</div>
+                  </div>
+
+                  <div class="logo-info2">
+                    <img src="/images/Icons/Menu.svg" alt="" />
+                    <div class="type">DINNER A LACARTE</div>
+                  </div>
+                  <div class="logo-info2">
+                    <img
+                      src="/images/Icons/Clock.svg"
+                      alt=""
+                    />
+                    <div class="type">6:00 PM - 11:00 PM</div>
+                  </div>
+                  <div class="logo-info2">
+                    <img
+                      src="/images/Icons/Members.svg"
+                      alt=""
+                    />
+                    <div class="type">MEMBERS</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer_dinnig-inner2 ">
+            <div class="restaurant_container2">
+              <div class="restaurant_name2">NAME</div>
+
+              <div class="restaurants_inner2 col-12">
+                <img src="/images/LOGOS RESTAURANTES/LOGOS PNG/Fish-Nets_Logo pang.png" alt="" />
+                <div class="logo_info-container2 ">
+                  <div class="logo-info2">
+                    <img
+                      src="/images/Icons/Buffet.svg"
+                      alt=""
+                    />
+                    <div class="type">TYPE</div>
+                  </div>
+
+                  <div class="logo-info2">
+                    <img src="/images/Icons/Menu.svg" alt="" />
+                    <div class="type">DINNER A LACARTE</div>
+                  </div>
+                  <div class="logo-info2">
+                    <img
+                      src="/images/Icons/Clock.svg"
+                      alt=""
+                    />
+                    <div class="type">6:00 PM - 11:00 PM</div>
+                  </div>
+                  <div class="logo-info2">
+                    <img
+                      src="/images/Icons/Members.svg"
+                      alt=""
+                    />
+                    <div class="type">MEMBERS</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+
+<!-- footer_breakfast-lg -->
+        <div class="footer_breakfast-container d-none d-md-block m-0 p-0  col-md-2">
+          <div class="footer_breakfast-tittle ">BREAKFAST & LUNCH</div>
+          <div class="footer_breakfast-inner ">
             <div class="restaurant_container-bf">
+              
               <div class="restaurant_name">NAME</div>
 
               <div class="restaurants_inner col-12">
@@ -534,12 +819,133 @@
               </div>
             </div>
           </div>
-          <div class="footer_barsQr-inner col-md-2">
-            <div class="footer_qr p-0 m-0 text-center col-12 ">
-          
-             
-              <div class="ourbars">
-                
+        </div>
+
+<!--breakfast_small-->
+
+<div class="breakfast_small m-0 p-0 d-md-none">
+  
+  <div class="footer_dinning-tittle2 m-0 p-0 col-12 ">BREAKFAST & LUNCH</div>
+  <div class="footer_dinnig-inner2 ">
+    <div class="restaurant_container2">
+      <div class="restaurant_name2">NAME</div>
+
+      <div class="restaurants_inner2 col-12">
+        <img src="/images/LOGOS RESTAURANTES/LOGOS PNG/Fish-Nets_Logo pang.png" alt="" />
+        <div class="logo_info-container2 ">
+          <div class="logo-info2">
+            <img
+              src="/images/Icons/Buffet.svg"
+              alt=""
+            />
+            <div class="type">TYPE</div>
+          </div>
+
+          <div class="logo-info2">
+            <img src="/images/Icons/Menu.svg" alt="" />
+            <div class="type">DINNER A LACARTE</div>
+          </div>
+          <div class="logo-info2">
+            <img
+              src="/images/Icons/Clock.svg"
+              alt=""
+            />
+            <div class="type">6:00 PM - 11:00 PM</div>
+          </div>
+          <div class="logo-info2">
+            <img
+              src="/images/Icons/Members.svg"
+              alt=""
+            />
+            <div class="type">MEMBERS</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer_dinnig-inner2 ">
+    <div class="restaurant_container2">
+      <div class="restaurant_name2">NAME</div>
+
+      <div class="restaurants_inner2 col-12">
+        <img src="/images/LOGOS RESTAURANTES/LOGOS PNG/Fish-Nets_Logo pang.png" alt="" />
+        <div class="logo_info-container2 ">
+          <div class="logo-info2">
+            <img
+              src="/images/Icons/Buffet.svg"
+              alt=""
+            />
+            <div class="type">TYPE</div>
+          </div>
+
+          <div class="logo-info2">
+            <img src="/images/Icons/Menu.svg" alt="" />
+            <div class="type">DINNER A LACARTE</div>
+          </div>
+          <div class="logo-info2">
+            <img
+              src="/images/Icons/Clock.svg"
+              alt=""
+            />
+            <div class="type">6:00 PM - 11:00 PM</div>
+          </div>
+          <div class="logo-info2">
+            <img
+              src="/images/Icons/Members.svg"
+              alt=""
+            />
+            <div class="type">MEMBERS</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer_dinnig-inner2 ">
+    <div class="restaurant_container2">
+      <div class="restaurant_name2">NAME</div>
+
+      <div class="restaurants_inner2 col-12">
+        <img src="/images/LOGOS RESTAURANTES/LOGOS PNG/Fish-Nets_Logo pang.png" alt="" />
+        <div class="logo_info-container2 ">
+          <div class="logo-info2">
+            <img
+              src="/images/Icons/Buffet.svg"
+              alt=""
+            />
+            <div class="type">TYPE</div>
+          </div>
+
+          <div class="logo-info2">
+            <img src="/images/Icons/Menu.svg" alt="" />
+            <div class="type">DINNER A LACARTE</div>
+          </div>
+          <div class="logo-info2">
+            <img
+              src="/images/Icons/Clock.svg"
+              alt=""
+            />
+            <div class="type">6:00 PM - 11:00 PM</div>
+          </div>
+          <div class="logo-info2">
+            <img
+              src="/images/Icons/Members.svg"
+              alt=""
+            />
+            <div class="type">MEMBERS</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- footer_barsQr-lg -->
+        <div class="footer_barsQr-container  d-none d-md-block  m-0 p-0  col-md-2">
+          <div class="footer_barsQr-tittle col-12 ">OUR BARS</div>
+          <div class="footer_barsQr-inner ">
+              <div class="bars">
                 <div class="ourbars_info-container">
                   <div class="ourbars_name">
                    <div class="bar">
@@ -560,46 +966,170 @@
                   </div>
                 </div>
               </div>
-              <div class="qr_container">
+            </div>
+            <div class="qr_container">
+              <div class="qr-inner">
               <div class="qr">QR</div>
               <div class="vector_qr">
                 <img src="/images/VECTOR QR BRCSL.png" alt="">
                 <div class="scan_me">SCAN ME</div>
               </div>
             </div>
-              
-              
-            </div>
           </div>
+         </div>
+        </div>
+
+<!--barsQr_small-->
+<div class="barsQr_small m-0 p-0 d-md-none">
+  <div class="footer_barsQr-tittle0 m-0 p-0 col-12 ">OUR BARS</div>
+  <div class="footer_barsQr-inner0 ">
+      <div class="bars0">
+        <div class="ourbars_info-container0">
+          <div class="ourbars_name0">
+           <div class="bar0">
+             <div class="name10">NAME</div>
+             <div class="time10">12:00AM - 12:00AM</div>
+           </div>
+           <div class="bar0">
+            <div class="name20">NAME</div>
+            <div class="time20">12:00AM - 12:00AM</div>
           </div>
-          <div class="flyer col-md-2">
+          <div class="bar0">
+            <div class="name30">NAME</div>
+            <div class="time30">12:00AM - 12:00AM</div>
+          </div>
+          <div class="bar0">
+            <div class="name0">NAME</div>
+            <div class="time0">12:00AM - 12:00AM</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="qr_container0">
+      <div class="qr-inner0">
+      <div class="qr0">QR</div>
+      <div class="vector_qr0">
+        <img src="/images/VECTOR QR BRCSL.png" alt="">
+        <div class="scan_me0">SCAN ME</div>
+      </div>
+    </div>
+  </div>
+ </div>
+</div>
+
+<!-- flyer_lg -->
+        <div class="footer_flyer-container d-none d-md-block m-0 p-0 order-sm-4 col-md-2">
+          <div class="footer_flyer-tittle ">FLYER</div>
+          <div class="flyer-inner">
+            <div class="flyer-activity">Our Activitys</div>
+          <div class="flyer ">
             <img src="/images/RECURSO DE IMAGENES/STRONG.png" alt="">
           </div>
         </div>
-      </section>
-    </main>
-    <!--d-md-block-->
-
-    <!--d-md-none-->
-
-    <main class="main1 m-0 p-0 d-md-none">
-      <section class="header_logo1 text-center col-12 order-0">
-        <img src="/images/brecl_white cacol morado.png" alt="">
-      </section>
-      <section class="header_weather1 text-center col-12 order-1">
-        weather
-      </section>
-      <section class="carousel1 text-center col-12 order-2">
         
-      </section>
-      <section class="restaurants1 text-center col-12 order-3">
-        restaurants
-      </section>
-      <section class="barandqr1 text-center col-12 order-4">Ourbar</section>
-      <section class="flyer1">flyer</section>
-    </main>
+      </div>
 
-    <!--d-md-none-->
+<!-- flyer_small -->
+
+<div class="flyer_small d-md-none m-0 p-0">
+
+  <div class="footer_flyer-container1  m-0 p-0 order-sm-4 col-md-2">
+    <div class="footer_flyer-tittle1 ">FLYER</div>
+    <div class="flyer-inner1">
+      <div class="flyer-activity1">Our Activitys</div>
+    <div class="flyer1 ">
+      <img src="/images/RECURSO DE IMAGENES/STRONG.png" alt="">
+    </div>
+  </div>
+  
+</div>
+</div>
+
+<!-- footer_staff-lg -->
+      <div class="footer_staff-container d-none d-md-block m-0 p-0 order-md-first col-md-2">
+        <div class="footer_staff-tittle  ">E-TEAM</div>
+        
+        <div id="carouselExampleInterval m-0 p-0" class="carousel1 slide1" data-bs-ride="carousel">
+          <div class="carousel-inner m-0 p-0">
+            <div class="carousel-item active" data-bs-interval="1000">
+              <div class="staff_lg-container">
+              <div class="staff_lg-image">
+                <img src="/images/RECURSO DE IMAGENES/061412e4a03c02f9902576ec55ebbe77 (1).jpg" class="d-block w-100" alt="...">
+                <div class="staff_lg-bottom-img">Staff name</div>
+              </div>
+             
+            </div>
+            </div>
+            <div class="carousel-item " data-bs-interval="1000">
+              <div class="staff_lg-container">
+            
+              <div class="staff_lg-image">
+                <img src="/images/RECURSO DE IMAGENES/28dd2c7955ce926456240b2ff0100bde (3).jpg" class="d-block w-100" alt="...">
+                <div class="staff_lg-bottom-img">Staff </div>
+              </div>
+            </div>
+          </div>
+            <div class="carousel-item">
+              <div class="staff_lg-container">
+            
+              <div class="staff_lg-image">
+                <img src="/images/RECURSO DE IMAGENES/2bf283c05b601f21364d052ca0ec798d.jpg" class="d-block w-100" alt="...">
+                <div class="staff_lg-bottom-img">Staff name</div>
+              </div>
+            </div>
+            </div>
+          </div>
+      </div>
+        <!-- <div class="carousel_staff-inner">
+          <div>STAFF</div>
+          <div class="carousel_staff-slides col-12">
+            <img name="staff_slide" />
+          </div>
+        </div> -->
+      </div>
+
+<!-- footer_staff-small -->
+
+<div class="footer_staff-small d-md-none m-0 p-0">
+  <div class="staff_small-tittle  ">E-TEAM</div>
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="1000">
+        <div class="staff_small-container">
+        <div class="staff-image">
+          <img src="/images/RECURSO DE IMAGENES/061412e4a03c02f9902576ec55ebbe77 (1).jpg" class="d-block w-100" alt="...">
+          <div class="staff_bottom-img">Staff name</div>
+        </div>
+       
+      </div>
+      </div>
+      <div class="carousel-item " data-bs-interval="1000">
+        <div class="staff_small-container">
+      
+        <div class="staff-image">
+          <img src="/images/RECURSO DE IMAGENES/28dd2c7955ce926456240b2ff0100bde (3).jpg" class="d-block w-100" alt="...">
+          <div class="staff_bottom-img">Staff name</div>
+        </div>
+      </div>
+    </div>
+      <div class="carousel-item">
+        <div class="staff_small-container">
+      
+        <div class="staff-image">
+          <img src="/images/RECURSO DE IMAGENES/2bf283c05b601f21364d052ca0ec798d.jpg" class="d-block w-100" alt="...">
+          <div class="staff_bottom-img">Staff name</div>
+        </div>
+      </div>
+      </div>
+    </div>
+</div>
+</div>
+      </section>
+    </main>
+    
+
+  
+    <script src="/clock.js"></script>
     <script src="/weather.js"></script>
     <script src="/carousel.js"></script>
     <script
