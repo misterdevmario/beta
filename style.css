@@ -25,7 +25,7 @@ body {
 }
 
 .header_clock {
-  background-color: #663399;
+  background: linear-gradient(rgb(160, 40, 204), rgb(54, 22, 160));
   height: 12vh;
 }
 .header_logo {
@@ -69,7 +69,7 @@ body {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  color: rgb(103, 102, 102);
+  color: white;
   width: 100%;
 }
 
@@ -89,7 +89,7 @@ body {
 }
 
 .top-img {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(119, 41, 236, 0.8);
   position: absolute;
   bottom: 85%;
   width: 75%;
@@ -100,7 +100,7 @@ body {
 }
 
 .bottom-img {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(119, 41, 236, 0.8);
   position: absolute;
   bottom: 1vh;
   width: 90%;
