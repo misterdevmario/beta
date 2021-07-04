@@ -27,6 +27,8 @@ body {
 .header_clock {
   background: linear-gradient(rgb(160, 40, 204), rgb(54, 22, 160));
   height: 12vh;
+  font-size: 40px;
+  
 }
 .header_logo {
   height: 12vh;
@@ -344,32 +346,63 @@ body {
 .footer_barsQr-inner {
   height: 42vh;
   display: flex;
-
   flex-direction: column;
-  align-content: center;
   justify-content: center;
 }
+.bar_name{
+  font-family: "Teko", sans-serif;
+  font-size: 2vh;
+  height: 2vh;
+}
 
-.ourbars_info-container {
+.bars_container{
+  height: 28vh;
+  width: 100%;
   display: flex;
-  display: flex;
+  justify-content: center;
   align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  height: 24vh;
+  flex-wrap: wrap;
+
 }
 
-.bar {
+
+
+.bars {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: gray;
+  flex-direction: column;
+  height: 5vh;
+  width: 95%;
+  border: solid 2px #9e65e0;
+  box-shadow: 2px 1px 1px rgba(231, 108, 231, 0.8);
+  background: linear-gradient(rgb(160, 40, 204), rgb(54, 22, 160));
+}
+
+.logo-time{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  background-color: black;
+  height: 3vh;
+  width: 100%;
+  font-size: 20px;
+  font-family: "Varela", sans-serif;
+}
+
+.logo-bar img{
+height: 40px;
+background-color: white;
+border-radius: 4px;
+margin: 10px;
 }
 
 .qr_container {
   display: flex;
   flex-direction: column;
-
+  
+  
   border-radius: 4px;
 }
 
@@ -387,7 +420,7 @@ body {
 
 .vector_qr img {
   margin: 10px;
-  height: 10vh;
+  height: 9vh;
 }
 
 .scan_me {
@@ -432,7 +465,7 @@ body {
 .carousel_small-image img {
   border: solid 2px #663399;
   border-radius: 4px;
-  height: 75vw;
+  height: 80vw;
 }
 
 .top-img1 {
@@ -513,7 +546,7 @@ body {
   font-size: 14px;
 }
 .restaurants_inner2 img {
-  height: 23vw;
+  height: 25vw;
   background-color: white;
   border-radius: 15px;
 }
@@ -546,10 +579,12 @@ body {
 .barsQr_small{
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  height: 700px;
   
 }
 
-.footer_barsQr-tittle0 {
+.footer_barsQr-tittle0{
   background: linear-gradient(rgb(160, 40, 204), rgb(54, 22, 160));
   font-size: 3vh;
   display: flex;
@@ -557,30 +592,60 @@ body {
   justify-content: center;
   border: solid 1px black;
 }
-.footer_barsQr-inner0 {
-  height: 450px;
-  display: flex;
-
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
+.bar_name0{
+  font-family: "Teko", sans-serif;
+  font-size: 2vh;
+  height: 2vh;
 }
 
-.ourbars_info-container0 {
- 
+.bars_container0{
+  height: 400px;
+  width: 100%;
   display: flex;
+  justify-content: center;
   align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  height: 24vh;
+  flex-wrap: wrap;
+
 }
 
-.bar0 {
+
+
+.bars0 {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: gray;
+  flex-direction: column;
+  height: 22vw;
+  width: 95%;
+  border-radius: 4px;
+  border: solid 2px #9e65e0;
+  box-shadow: 2px 1px 1px rgba(231, 108, 231, 0.8);
+  background: linear-gradient(rgb(160, 40, 204), rgb(54, 22, 160));
 }
+
+.logo-time0{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  background-color: black;
+  height: 14vw;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 4px;
+  font-family: "Varela", sans-serif;
+}
+
+.logo-bar0 img{
+height: 40px;
+background-color: white;
+border-radius: 4px;
+margin: 10px;
+}
+
+
+
+
 
 .qr_container0 {
   display: flex;
@@ -647,7 +712,8 @@ body {
 /* footer_staff-small */
 
 .footer_staff-small{
-  height: 400px;
+  height: 500px;
+  
 }
 
 .staff_small-container {
@@ -655,6 +721,8 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-top: 40px;
+  height: 450px;
 }
 
 .staff_small-tittle {
