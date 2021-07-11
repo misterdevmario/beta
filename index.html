@@ -11,7 +11,6 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
@@ -27,9 +26,11 @@
       <div class="header row  m-0 p-0">
 <!-- header_clock-lg-->
         <div class="header_clock text-center d-none d-md-block col-md-4 order-md-1">
+          <div class="clock-container">
           <div id="clock"></div>
           <div id='date' class="date"></div>
           <div id="dayname" class="dayname"></div>
+        </div>
         </div>
 
 <!-- header_weather-lg -->
@@ -205,8 +206,9 @@
       </div>
 <!-- carousel_small -->
 <div class="carousel_small m-0 p-0 d-md-none">
+  <div class="carousel_small-tittle">OUR ACTVITIES</div>
 
-  <div id="carouselExampleInterval" class="carousel2 slide" data-bs-ride="carousel">
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="3000">
         <div class="carousel_small-container">
@@ -244,7 +246,7 @@
           <div class="bottom-img1">Activity</div>
         </div> 
         <div class="carousel_small-image">
-          <img src=images/RECURSO DE IMAGENES/2bf283c05b601f21364d052ca0ec798d.jpg" class="d-block w-100" alt="...">
+          <img src="images/RECURSO DE IMAGENES/2bf283c05b601f21364d052ca0ec798d.jpg" class="d-block w-100" alt="...">
           <div class="top-img1">22:00</div>
           <div class="bottom-img1">Activity</div>
         </div>
